@@ -1,0 +1,24 @@
+.container > div {
+  height: 60px;
+  width: 100%;
+  border-radius: 4px;
+  background-image: linear-gradient(
+    90deg,
+    #f4f4f4 0px,
+    #fafafa 80px,
+    #f4f4f4 160px
+  );
+  background-color: #f4f4f4;
+  background-size: 600px;
+  margin-bottom: 20px;
+  animation: slide 1s infinite linear;
+}
+
+@keyframes slide {
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: 600px;
+  }
+}

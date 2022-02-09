@@ -1,0 +1,14 @@
+.container {
+  background: white;
+  text-align: center;
+  margin: 100px auto;
+  max-width: 600px;
+  padding: 24px;
+  box-shadow: 0px 0px 10px 0px gainsboro;
+  border-radius: 4px;
+}
+@media (max-width: 700px) {
+    .container{
+      margin: auto;
+    }
+}

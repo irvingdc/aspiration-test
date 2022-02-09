@@ -1,0 +1,21 @@
+.container {
+  text-align: center;
+  color: #909090;
+}
+.container p {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.container h1 {
+  font-size: 40px;
+  text-transform: capitalize;
+  position: relative;
+  background: -webkit-linear-gradient(45deg, #8cefff, #2106ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 700px) {
+  .container h1 {
+    font-size: 32px;
+  }
+}

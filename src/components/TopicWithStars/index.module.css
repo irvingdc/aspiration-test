@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  margin-bottom: 20px;
+  height: 60px;
+  align-items: center;
+  padding: 0px 20px;
+  border: 1px solid gainsboro;
+  outline: none;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.container:hover {
+  background: aliceblue;
+}
+.container span b {
+  color: #f7c300;
+}
