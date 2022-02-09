@@ -34,4 +34,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 - LESS could be added to make the structure of the styles files more similar to the DOM and therefore easier to maintain.
 - React Router could be added to manage separate sections for more features.
 - The code could be refactored by routes where each page has its own components under the same folder if using routing instead of all of them under the components folder, only the ones shared by multiple pages would be there.
-- Redux or the Context API could be added if more GraphQL API calls are added in order to have a standardized global.
+- Redux or the Context API could be added if more GraphQL API calls are added in order to have a standardized global state.
