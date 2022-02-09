@@ -16,7 +16,7 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-You need a a [Github API key](https://docs.github.com/en/free-pro-team@latest/graphql/guides/forming-calls-with-graphql #authenticating-with-graphql). After obtaining one it should be added to the root of the project inside a .env file as **REACT_APP_GITHUB_ACCESS_KEY**
+You need a a Github API Key. After obtaining one it should be added to the root of the project inside a .env file as **REACT_APP_GITHUB_ACCESS_KEY**
 
 ### `npm test`
 
